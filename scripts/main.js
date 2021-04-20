@@ -17,7 +17,7 @@ function estableceNombreUsuario() {
       estableceNombreUsuario();
     } else {
       localStorage.setItem('nombre', miNombre);
-      miTitulo.innerHTML = 'Mozilla is genial, ' + "Pedrito gil";
+      miTitulo.innerHTML = 'Mozilla is genial, ' + miNombre;
     }
   }
 
