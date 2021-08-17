@@ -1,2 +1,2 @@
-# jamilmendez.github.iomy
-test website, soon my personal website
+# jamilmendez.github.io
+soon my personal website
