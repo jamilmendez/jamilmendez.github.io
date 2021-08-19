@@ -6,7 +6,11 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    overflow: hidden;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
 }
 
 .nav {
@@ -39,7 +43,44 @@ body {
 }
 
 .hero {
-    height: 85vh;
+    height: 100vh;
+    min-height: 500px;
+    position: relative;
+}
+
+.hero::after {
+
+}
+
+.hero__container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 3fr 2fr;
+    place-items: center;
+    gap: 20px;
+}
+
+.hero__title {
+    font-size: 3rem;
+}
+
+.hero__text {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero__cta {
+    display: inline-block;
+    background-color: #3f52bf;
+    color: #f3f0f0;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.hero__img {
+    width: 95%;
 }
 
 .footer__paragraph {
