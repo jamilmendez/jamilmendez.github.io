@@ -12,6 +12,7 @@ body {
     width: 90%;
     margin: auto;
     padding-bottom: 30px;
+    overflow: hidden;
 }
 
 .nav {
@@ -53,6 +54,16 @@ body {
 
 .hero::after {
     content: "";
+    display: block;
+    position: absolute;
+    height: 25em;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  
+    background: #2a3780;
+    z-index: -1;
+    clip-path: polygon(58.5% 67%, 94% 64.3%, 99.6% 54.8%, 100% 100%, 0% 100%, 0% 90.5%, 25.8% 68.8%);
 }
 
 .hero__container {
@@ -95,9 +106,9 @@ body {
 
 .services {
     display: grid;
-    height: 400px;
+    height: 500px;
     grid-template-columns: 3fr 2fr;
-    place-items: initial;
+    place-items: start center;
     gap: 20px;
 }
 
