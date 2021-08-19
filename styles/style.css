@@ -55,7 +55,7 @@ body {
 .hero__container {
     display: grid;
     height: 100%;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 3fr 3fr;
     place-items: center;
     gap: 20px;
 }
