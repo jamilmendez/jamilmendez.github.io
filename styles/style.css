@@ -191,6 +191,7 @@ body {
 
     .hero__container {
         grid-template-columns: 1fr;
+        gap: 1rem;
     }
 
     .hero__img {
