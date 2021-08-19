@@ -9,8 +9,9 @@ body {
 }
 
 .container {
-    width: 95%;
+    width: 90%;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 .nav {
@@ -42,6 +43,8 @@ body {
     font-size: 15px;
 }
 
+/* Hero */
+
 .hero {
     height: 100vh;
     min-height: 500px;
@@ -54,6 +57,7 @@ body {
 
 .hero__container {
     display: grid;
+    width: 95%;
     height: 100%;
     grid-template-columns: 3fr 3fr;
     place-items: center;
@@ -62,6 +66,10 @@ body {
 
 .hero__title {
     font-size: 3rem;
+}
+
+.title--color {
+    color: #4c63e6;
 }
 
 .hero__text {
@@ -73,7 +81,7 @@ body {
     display: inline-block;
     background-color: #3f52bf;
     color: #f3f0f0;
-    padding: 10px 30px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     border-radius: 8px;
@@ -81,6 +89,35 @@ body {
 
 .hero__img {
     width: 95%;
+}
+
+/* Services */
+
+.services {
+    display: grid;
+    height: 400px;
+    grid-template-columns: 3fr 2fr;
+    place-items: initial;
+    gap: 20px;
+}
+
+.services__title {
+    font-size: 2rem;
+}
+
+.services__text {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.services__cta {
+    display: inline-block;
+    background-color: #3f52bf;
+    color: #f3f0f0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
 }
 
 .footer__paragraph {
