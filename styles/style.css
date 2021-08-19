@@ -49,7 +49,7 @@ body {
 }
 
 .hero::after {
-
+    content: "";
 }
 
 .hero__container {
