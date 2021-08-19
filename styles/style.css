@@ -50,9 +50,8 @@ body {
 /* Hero */
 
 .hero {
-    height: 100vh;
+    height: 90vh;
     min-height: 500px;
-    position: relative;
 }
 
 .hero::after {
@@ -102,7 +101,7 @@ body {
 }
 
 .hero__img {
-    width: 95%;
+    width: 90%;
 }
 
 /* Services */
@@ -174,7 +173,8 @@ body {
     }
 
     .hero {
-        max-height: 90vh;
+        max-height: 100vh;
+        height: 100%;
     }
 
     .hero__title {
@@ -192,7 +192,11 @@ body {
     .hero__container {
         grid-template-columns: 1fr;
         gap: 1rem;
-        height: 90vh;
+        height: 80vh;
+    }
+
+    .hero::after {
+        bottom: 90px;
     }
 
     .hero__img {
