@@ -169,9 +169,13 @@ body {
 }
 
 @media screen and (max-width:600px) {
-.nav {
+    .nav {
     padding: 0 30px;
-}
+    }
+
+    .hero {
+        max-height: 90vh;
+    }
 
     .hero__title {
         font-size: 2rem;
