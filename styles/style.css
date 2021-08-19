@@ -192,15 +192,11 @@ body {
     .hero__container {
         grid-template-columns: 1fr;
         gap: 1rem;
-        height: 80vh;
-    }
-
-    .hero::after {
-        bottom: 90px;
+        height: 90vh;
     }
 
     .hero__img {
-        width: 80%;
+        width: 90%;
     }
 
     .services {
